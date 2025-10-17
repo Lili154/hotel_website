@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel-Nobi</title>
+  <link rel="icon" href="images/logo1.jpg" type="images/png">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="images/logo1.jpg" alt="Hotel-Nobi Logo" class="logo" style="border-radius: 50px;">
+          <h2 class="nav-title">ГОСТЕВОЙ ДОМ</h2>
+        </a>
+      </div>
+
+      <!-- Burger Icon -->
+      <div data-aos="fade-up" class="burger" id="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul data-aos="fade-up" class="nav-links" id="desktopMenu">
+        <li><a href="#home">ГЛАВНАЯ</a></li>
+        <!--<li><a href="#hotel">ОТЕЛЬ</a></li>-->
+        <li><a href="#rooms">НОМЕРА</a></li>
+        <li><a href="#services">УСЛУГИ</a></li>
+        <li><a href="#gallery">ГАЛЕРЕЯ</a></li>
+        <li><a href="#nearby">КУДА ПОЙТИ</a></li>
+        <li><a href="#contacts">КОНТАКТЫ</a></li>
+        <button class="book_button"><a href="rooms.html" id="book_button">Забронировать</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="site-page">
+    <div class="site-title" id="home">
+
+      <h1 data-aos="fade-up">Nobi</h1>
+      <div class="guest-house-title">
+        <div data-aos="fade-up" class="title-line"></div>
+        <p data-aos="fade-up" style="font-size: 25px;">ГОСТЕВОЙ ДОМ</p>
+        <div data-aos="fade-up" class="title-line"></div>
+      </div>
+    </div>
+    <section class="section">
+      <div class="image parallax" id="hotel" style="background-image:url('images/tikhiy_dvorik.avif');
+      margin: 0 auto;">
+      </div>
+      <div class="text">
+        <h2 data-aos="fade-up">ГОСТЕВОЙ ДОМ</h2>
+        <p data-aos="fade-up">Гостевой дом NOBI расположен в Гагре, в 350 метрах от пляжа. Гости могут воспользоваться
+          принадлежностями для
+          барбекю. На территории работает бесплатный Wi-Fi и обустроена бесплатная частная парковка.
+          Номера гостевого
+          дома оснащены телевизором с плоским экраном и спутниковыми каналами. Во всех номерах
+          гостевого дома имеются
+          кондиционер и шкаф для одежды.</p>
+      </div>
+      <div id="rooms" class="image parallax"
+        style="background-image:url('gallery/gallery11.jpg');margin: 0 auto;">
+        <a href="rooms.html" style="text-decoration: none; color: inherit;">
+   <div class="overlay">
+    <h2 data-aos="fade-up">НОМЕРА</h2>
+    <p data-aos="fade-up">Погрузитесь в атмосферу спокойствия и уюта в наших светлых, чистых и просторных номерах. Каждый номер оборудован всем необходимым для комфортного проживания: кондиционер, Wi-Fi, санузел, балкон, а некоторые — с видом на море или горы.
+Будь то романтическое путешествие, семейный отпуск или отдых с друзьями — у нас найдется номер на любой вкус.</p>
+       <button class="room_book_button"><a href="rooms.html" id="book_button">Забронировать</a></button>
+  </div>
+</a>
+      </div>
+      <div class="text" id="services">
+        <h2 data-aos="fade-up">УСЛУГИ</h2>
+      <section class="services-section">
+ <div class="services-grid">
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/barbecue.png" alt="Мангал"></div>
+      <div data-aos="fade-up" class="service-title">Мангал</div>
+      <div data-aos="fade-up" class="service-description">Удобный мангал для приготовления шашлыков и гриля.</div>
+    </div>
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/arrow.png" alt="Трансфер"></div>
+      <div data-aos="fade-up" class="service-title">Трансфер</div>
+      <div data-aos="fade-up"class="service-description">Комфортный трансфер от/до аэропорта и других локаций.</div>
+    </div>
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/tour.png" alt="Экскурсии"></div>
+      <div data-aos="fade-up" class="service-title">Экскурсии</div>
+      <div data-aos="fade-up" class="service-description">Организуем интересные экскурсии по региону.</div>
+    </div>
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/beach.png" alt="Море"></div>
+      <div data-aos="fade-up" class="service-title">Море</div>
+      <div data-aos="fade-up" class="service-description">Близость к морю и прекрасный пляжный отдых.</div>
+    </div>
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/wifi.png" alt="Wi-Fi"></div>
+      <div data-aos="fade-up" class="service-title">Wi-Fi</div>
+      <div data-aos="fade-up" class="service-description">Бесплатный интернет на всей территории.</div>
+    </div>
+    <div  class="service-card">
+      <div data-aos="fade-up" class="service-icon"><img style="width: 50px;height: 50px;" src="images/hookah.png" alt="Кальян"></div>
+      <div data-aos="fade-up" class="service-title">Кальян</div>
+      <div data-aos="fade-up" class="service-description">Кальян в зоне отдыха — расслабьтесь с комфортом.</div>
+    </div>
+  </div>
+</section>
+
+      </div>
+      <section class="slideshow-gallery">
+        <h2 data-aos="fade-up">ГАЛЕРЕЯ</h2>
+        <!-- Gallery Container -->
+        <div class="gallery-container">
+          <div class="gallery" id="gallery"></div>
+        </div>
+
+        <!-- Lightbox Overlay -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+          <img id="lightbox-img" src="" alt="Full Image">
+        </div>
+      </section>
+
+
+    </section>
+
+    <div class="text" id="nearby">
+      <h2 data-aos="fade-up">КУДА ПОЙТИ</h2>
+      <section class="services-section">
+  <div class="services-grid">
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon"></div>-->
+      <div data-aos="fade-up" class="service-title">Приморский парк принца Ольденбургского</div>
+      <div data-aos="fade-up" class="service-description">Исторический парк с уникальной архитектурой и зеленью.</div>
+    </div>
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon">️</div>-->
+      <div data-aos="fade-up" class="service-title">Колоннада</div>
+      <div data-aos="fade-up" class="service-description">Знаковый символ Гагры у входа в Приморский парк.</div>
+    </div>
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon">🛡️</div>-->
+      <div data-aos="fade-up" class="service-title">Гагрская крепость</div>
+      <div data-aos="fade-up" class="service-description">Древняя византийская крепость на холме с видом на море.</div>
+    </div>
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon">️</div>-->
+      <div data-aos="fade-up" class="service-title">Рынок</div>
+      <div data-aos="fade-up" class="service-description">Местный рынок с сувенирами, свежими фруктами и изделиями ручной работы.</div>
+    </div>
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon"></div>-->
+      <div data-aos="fade-up" class="service-title">Термальные источники</div>
+      <div data-aos="fade-up" class="service-description">Оздоровительные источники с теплой минеральной водой.</div>
+    </div>
+    <div  class="service-card">
+      <!--<div data-aos="fade-up" class="service-icon">️</div>-->
+      <div data-aos="fade-up" class="service-title">Пляж Гагры</div>
+      <div data-aos="fade-up" class="service-description">Чистый пляж с мелкой галькой и прозрачной водой.</div>
+    </div>
+  </div>
+</section>
+
+    </div>
+    <div class="image parallax" style="background-image:url('images/palma.jpg'); margin: 0 auto;">
+      <div class="overlay" id="reviews">
+        <h2 data-aos="fade-up">ОТЗЫВЫ</h2>
+        <p data-aos="fade-up">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить
+          свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Здесь будет удачно
+          смотреться текст о вашей компании и услугах.</p>
+      </div>
+    </div>
+    <!-- add more sections as needed -->
+    </section>
+
+  </div>
+
+  <div class="contacts" id="contacts">
+
+
+    <div class="contact-wrapper">
+
+      <div class="contact-container">
+
+        <div  data-aos="fade-up" class="contacts-text">
+          <h2 data-aos="fade-up">СВЯЖИТЕСЬ С НАМИ</h2>
+        </div>
+
+
+
+        <div >
+          <address data-aos="fade-up">
+            <div data-aos="fade-up"> nobihotel@mail.ru</div>
+            <div data-aos="fade-up">/</div>
+            <div data-aos="fade-up">Ardzinba Avenue 273, Абхазия, Гагра</div>
+            <div data-aos="fade-up">/</div>
+            <div data-aos="fade-up">+7 (940) 910 30 10</div>
+          </address>
+        </div>
+
+      </div>
+      <div class="form_container">
+        <div class=" form">
+          <form action="send.php" method="post">
+            <div class="form-name-email">
+              <p data-aos="fade-up">Имя</p>
+              <input name="name" type="text" class="text-field__input" placeholder="Ваше ФИО" required />
+              <p data-aos="fade-up">Эл. почта *</p>
+              <input name="email" type="email" class="text-field__input" placeholder="Email" required />
+            </div>
+            <p data-aos="fade-up">Телефон</p>
+            <input name="phone" type="tel" class="text-field__input" placeholder="Телефонный номер" />
+            <p data-aos="fade-up">Сообщение</p>
+            <textarea name="message" placeholder="Добавьте сообщение..." rows="5" class="text-field__textarea" required></textarea>
+            <input type="submit" value="Отправить" class="btn btn-primary btn-lg" />
+          </form>
+
+        </div>
+      </div>
+      <span style="font-size:30px;">
+
+      </span>
+
+      <div class="map-container">
+        <iframe src="https://yandex.ru/map-widget/v1/-/CCUBBCTfPD" width="100%" height="400px" frameborder="1"
+          allowfullscreen="true" style="display: block; margin: 0 auto;">
+        </iframe>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <p style="color: green;">
+            <?php if (isset($_GET['success'])) echo 'Thank you, your message has been sent.'; ?>
+        </p>
+        <p style="color: red;">
+            <?php if (isset($_GET['error'])) echo 'Error: ' . htmlspecialchars($_GET['error']); ?>
+        </p>
+
+  </div>
+
+
+  <!-- <div class="map"
+    style="background-color: #fff; margin-top: 16px; width: 100%; margin-left: auto; margin-right: auto;">
+    <div class="body-content" style="word-wrap: break-word; text-align: center;">
+      <p class="lead" style="font-size: 18px; margin-top: -15px;"></p>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CCUBBCTfPD" width="100%" height="400px" frameborder="1"
+        allowfullscreen="true" style="display: block; margin: 0 auto;">
+      </iframe>
+    </div>
+  </div> -->
+
+
+
+
+ <footer>
+    <div class="footer_container">
+      <div class="row align-items-center">
+        <div data-aos="fade-up" class="col-lg-4 text-lg-start" style="font-size: 25px;"> <b>Контакты</b></div>
+      </div>
+      <div class="row align-items-center">
+        <div data-aos="fade-up" class="col-lg-4 text-lg-start"> +7 (940) 910 30 10</div>
+      </div>
+      <div class="row align-items-center">
+        <div data-aos="fade-up" class="col-lg-4 text-lg-start">
+           <img style="width: 25px; height: 25px;" src="images/telegram.png" alt="">
+           <img style="width: 25px; height: 25px;" src="images/whatsapp.png" alt="whatsapp">
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div data-aos="fade-up" class="col-lg-4 text-lg-start"> Ardzinba Avenue 273, Гагра, Абхазия</div>
+      </div>
+      <br>
+      <div class="row align-items-end">
+        <div data-aos="fade-up" class="col-lg-4 text-lg-start"> 2025 Copyright | Nobi Hotel</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <script src="scripts/script.js"></script> -->
+  <script src="scripts/whatsapp-button.js"></script>
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/gallery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
